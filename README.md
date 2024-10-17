@@ -89,11 +89,15 @@ The result will be displayed below the input field.
 
 ## Example Expressions
 
-Addition: 2 + 3
-Subtraction: 10 - 4
-Multiplication: 3 * 8
-Division: 15 / 5
-Complex Expression: (2 + 3) * 4 - 5
+- **Addition: 2 + 3**
+
+- **Subtraction: 10 - 4**
+
+- **Multiplication: 3 * 8**
+
+- **Division: 15 / 5**
+
+- **Complex Expression: (2 + 3) * 4 - 5**
 
 ## Testing
 
