@@ -40,7 +40,7 @@ To run this project, you need:
 
    ```bash
    git clone https://github.com/3Mira3/TPPLabs.git
-   cd your-repository-name
+   cd TPPLabs/
    
 2. Build the project using Maven:
 
@@ -48,7 +48,8 @@ To run this project, you need:
 mvn clean install
 ```
 
-Running the Application
+## Running the Application
+
 To start the application, you have a few options:
 
 Option 1: Running Locally with Maven
@@ -77,19 +78,23 @@ docker run -p 8080:8080 calculator-app
 
 The application will be available at http://localhost:8080/.
 
-Usage
+## Usage
+
 Navigate to http://localhost:8080/ in your browser.
 Enter a mathematical expression in the input field (e.g., 2+3*5).
 Click the Calculate button.
 The result will be displayed below the input field.
-Example Expressions
+
+## Example Expressions
+
 Addition: 2 + 3
 Subtraction: 10 - 4
 Multiplication: 3 * 8
 Division: 15 / 5
 Complex Expression: (2 + 3) * 4 - 5
 
-Testing
+## Testing
+
 The application includes unit tests to ensure functionality. To run the tests, use:
 
 ```bash
@@ -98,5 +103,6 @@ mvn test
 
 The results will be available in the console and in the target/surefire-reports directory.
 
-License
+## License
+
 This project is licensed under the Apache 2.0 License - see the LICENSE file for details.
