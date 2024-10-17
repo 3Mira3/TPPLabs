@@ -52,7 +52,7 @@ mvn clean install
 
 To start the application, you have a few options:
 
-Option 1: Running Locally with Maven
+**Option 1: Running Locally with Maven**
 You can run the application directly from Maven by executing:
 
 ```bash
@@ -61,7 +61,7 @@ mvn spring-boot:run
 
 Once started, the application will be available at http://localhost:8080/.
 
-Option 2: Running with Docker
+**Option 2: Running with Docker**
 If Docker is installed, you can build and run a Docker container for this application:
 
 Build the Docker image:
